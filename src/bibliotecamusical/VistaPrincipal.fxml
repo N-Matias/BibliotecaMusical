@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/27.0.1.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bibliotecamusical.VistaPrincipalController">
+   <children>
+      <TextField fx:id="txtBuscar" layoutX="211.0" layoutY="80.0" onKeyReleased="#filtrarCanciones" promptText="Buscar:" />
+      <ListView fx:id="listViewCanciones" layoutX="186.0" layoutY="126.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="68.0" layoutY="214.0" mnemonicParsing="false" onAction="#modificarCancion" text="Modificar" />
+      <Button layoutX="68.0" layoutY="155.0" mnemonicParsing="false" onAction="#agregarCancion" text="Agregar" />
+      <Button layoutX="68.0" layoutY="270.0" mnemonicParsing="false" onAction="#eliminarCancion" text="Eliminar" />
+      <Label fx:id="lblEstadisticas" layoutX="272.0" layoutY="350.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Ruleta",
+    "artista": "Karina",
+    "genero": "Pop",
+    "duracionSegundos": 180
+  },
+  {
+    "titulo": "A",
+    "artista": "VB",
+    "genero": "C",
+    "duracionSegundos": 2222
+  },
+  {
+    "titulo": "SSS",
+    "artista": "SSS",
+    "genero": "SSS",
+    "duracionSegundos": 32
+  }
+]
